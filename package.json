@@ -1,0 +1,22 @@
+{
+  "name": "trpc-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rafael Santos",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/server": "^10.16.0",
+    "express": "^4.18.2",
+    "tsx": "^3.12.5",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
